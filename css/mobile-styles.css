@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+.menu-container { position: absolute !important; font-family: 'Open Sans', sans-serif;display: none;     opacity: 0 !important; z-index: 999 !important; }
+.menu-container .crbnMenu .menu { display: none; border: 1px solid rgba(255,255,255,0.17); position: absolute; z-index: 9999; background: rgba(0,0,0,0.88); width: 28% ; top: 85px ; }
+
+
+
+
+@media (min-width: 800px)  {
+.menu-container { font-family: 'Open Sans', sans-serif;display: block;    opacity: 1 !important;  }
+.menu-container { font-family: 'Open Sans', sans-serif;display: none; }
+.menu-container .crbnMenu ul { padding: 0; margin: 0; list-style-type: none; }
+.menu-container .crbnMenu a { text-decoration: none; color: #333; }
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 15px; background-color: #eee; border-bottom: 1px solid #ddd; }
+.menu-container .crbnMenu .link-stack .brand { text-transform: uppercase; font-weight: bold; color: #3c1a59; position: absolute; left: 60px; top: 18px; }
+.menu-container .crbnMenu .menu { border: 5px solid rgb(245 245 245); position: fixed; z-index: 9999; background: rgb(253 251 255); width: 20% !important; top: 64px !important; left: 0; }
+.menu-container .crbnMenu .menu li a {    border: 1px solid #7a7a7a; display: block; font-family: arial; background: #3e0172; width: 100%; font-size: 14px; font-weight: bold; color: white; padding: 13px 20px; text-transform: uppercase; margin: 0 0 10px; }
+.menu-container .crbnMenu .menu li a {      border: 1px solid #ebebeb; display: block; font-family: arial; background: #ffffff; width: 100%;  font-size: 13px; font-weight: bold; color: black; padding: 12px 20px; text-transform: uppercase; margin: 0; }
+.menu-container .crbnMenu .menu li:nth-child(1) a{ background: #3e0172; border: 1px solid #7a7a7a; color: #fff; font-size: 14px; font-weight: bold; padding: 13px 20px; text-transform: uppercase; margin: 0 0 7px; }
+.menu-container .crbnMenu .menu li:nth-child(6) a{ background: #e4bb00; border: 1px solid #7a7a7a; color: #fff; font-size: 14px; font-weight: bold; padding: 13px 20px; text-transform: uppercase; margin: 0 0 7px; }
+.menu-container .crbnMenu .menu li:nth-child(2) a{ background: #00baff; border: 1px solid #7a7a7a; color: #fff; font-size: 14px; font-weight: bold; padding: 13px 20px; text-transform: uppercase; margin: 0 0 7px; }
+.menu-container .crbnMenu .menu li:nth-child(3) a{ background: #ff0049; border: 1px solid #7a7a7a; color: #fff; font-size: 14px; font-weight: bold; padding: 13px 20px; text-transform: uppercase; margin: 0 0 7px; }
+.menu-container .crbnMenu .menu li:nth-child(4) a{ background: #ff00e2; border: 1px solid #7a7a7a; color: #fff; font-size: 14px; font-weight: bold; padding: 13px 20px; text-transform: uppercase; margin: 0 0 7px; }
+.menu-container .crbnMenu .menu li:nth-child(5) a{ background: #05e299; border: 1px solid #7a7a7a; color: #fff; font-size: 14px; font-weight: bold; padding: 13px 20px; text-transform: uppercase; margin: 0 0 7px; }
+.menu-container .crbnMenu .menu li a .nav-link-icon { margin-right: 10px; }
+.menu-container .crbnMenu .menu li a .menu-toggle { display: block; }
+.menu-container .crbnMenu .menu li ul { padding: 0; margin: 0; display: none; }
+.menu-container .crbnMenu .menu li ul li a { padding-left: 25px; } 
+.menu-container .crbnMenu .menu li ul li a.nav-sub { border: 1px solid #380167; display: block; font-family: arial; background: #1c0134; width: 100%; font-size: 11px; font-weight: bold; color: white; padding: 10px 0px 10px 50px; text-transform: uppercase; margin: 0; }
+.menu-container .crbnMenu .menu li ul li a.nav-sub:hover{     border: 1px solid #423a48;  background: #3d3444; }
+.menu-container .crbnMenu .link-stack {     padding: 0; background: none; border-bottom: none; height: 50px; top: 0; cursor: context-menu; }
+.menu-container #nav-toggle {  position: relative; left: 10px; top: 15px; height: 40px; width: 100px !important; z-index: 9999; right: 0; margin: 0; display: block; cursor: pointer;}
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span { height: 5px; width: 30px; left: 7px; background: #3e0172; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 13px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 25px; background: #3e0172; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+.menu-container #nav-toggle.nav-open span { background: transparent; }
+.menu-container #nav-toggle.nav-open span:before { transition: all 500ms ease-in-out; transform: translateY(8px) rotate(45deg); }
+.menu-container #nav-toggle.nav-open span:after { transition: all 500ms ease-in-out; transform: translateY(-8px) rotate(-45deg); }
+}
+
+
+@media (max-width: 768px) {
+.menu-container { font-family: 'Open Sans', sans-serif;display: block;    opacity: 1 !important;  }
+.menu-container { font-family: 'Open Sans', sans-serif;display: block; }
+.menu-container .crbnMenu ul { padding: 0; margin: 0; list-style-type: none; }
+.menu-container .crbnMenu a { text-decoration: none; color: #333; }
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 15px; background-color: #eee; border-bottom: 1px solid #ddd; }
+.menu-container .crbnMenu .link-stack .brand { text-transform: uppercase; font-weight: bold; color: #aaa; }
+.menu-container .crbnMenu .menu {border: 1px solid rgba(255,255,255,0.17); position: fixed; z-index: 999999999999999; background: rgba(13, 25, 36, 0.91); width: 47% !important; top: 85px !important; }
+.menu-container .crbnMenu .menu li a { border-bottom: 1px solid #fefeff1f; display: block; color: #fff; font-size: 12px; line-height: 25px; padding: 3px 0 3px 15px; }
+.menu-container .crbnMenu .menu li a .nav-link-icon { margin-right: 10px; }
+.menu-container .crbnMenu .menu li a .menu-toggle { display: block; }
+.menu-container .crbnMenu .menu li ul { padding: 0; margin: 0; display: none; }
+.menu-container .crbnMenu .menu li ul li a { padding: 3px 0 3px 20px; background: #00000057; color: #fff; font-size: 11px; text-transform: uppercase; } 
+.menu-container .crbnMenu .menu li ul li a:hover {  color: #fff; } 
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: -340px; top: 15px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: 1px solid #38506721; }
+
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; padding: 0 10px 0 0px; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+.menu-container #nav-toggle.nav-open span { background: transparent; }
+.menu-container #nav-toggle.nav-open span:before { transition: all 500ms ease-in-out; transform: translateY(8px) rotate(45deg); }
+.menu-container #nav-toggle.nav-open span:after { transition: all 500ms ease-in-out; transform: translateY(-8px) rotate(-45deg); }
+    
+
+}
+
+@media (max-width: 650px) {
+    
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: 30px !important; top: 17px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: none; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+    
+}
+
+
+@media (max-width: 425px) {
+.menu-container { font-family: 'Open Sans', sans-serif;display: block; }
+.menu-container .crbnMenu ul { padding: 0; margin: 0; list-style-type: none; }
+.menu-container .crbnMenu a { border-bottom: 1px solid rgba(255,255,255,0.17); display: block; padding: 10px 20px; color: #fff;text-transform: uppercase;}
+.menu-container .crbnMenu .link-stack { cursor: pointer; margin: 0 0px 0; }
+.menu-container .crbnMenu .link-stack .brand { text-transform: uppercase; font-weight: bold; color: #051831; }
+.menu-container .crbnMenu .menu { display: none; border: 1px solid rgba(255,255,255,0.17); position: fixed; z-index: 9999; background: rgba(5, 24, 49, 0.8); width: 100% !important; top: 115px !important; left: 0;}
+.menu-container .crbnMenu .menu li a span{ color: #d2d2d2; font-family: arial; text-shadow: none; text-transform: uppercase; }
+.menu-container .crbnMenu .menu li a .nav-link-icon { margin-right: 10px; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; padding: 0 10px 0 0; font-weight: bold; }
+.menu-container .crbnMenu .menu li ul { padding: 0; margin: 0; display: none; }
+.menu-container .crbnMenu .menu li ul li a { color: #fff; font-size: 13px; padding: 3% 0 3% 10%; text-shadow: none; font-family: arial; text-transform: uppercase; }
+.menu-container .crbnMenu .menu li ul li a:hover { color: #ccc; }
+.menu-container #nav-toggle span { height: 5px; width: 30px; right: 0px; background: #051831; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #051831; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:after {
+    bottom: -8px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #051831; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container { font-family: 'Open Sans', sans-serif; position: fixed;top: 0; z-index: 9999; width: 100%;}
+.menu-container .crbnMenu .menu li ul li a { padding: 3px 0 3px 30px; background: #090a1ebf; color: #fff; font-size: 11px; }
+
+}
+
+@media (max-width: 414px) {
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: 30px !important; top: 17px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: none; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+}
+
+@media (max-width: 400px) {
+.menu-container { font-family: 'Open Sans', sans-serif;display: block; }
+.menu-container .crbnMenu ul { padding: 0; margin: 0; list-style-type: none; }
+.menu-container .crbnMenu a { border-bottom: 1px solid rgba(255,255,255,0.17); display: block; padding: 10px 20px; color: #fff;text-transform: uppercase;}
+.menu-container .crbnMenu .link-stack { cursor: pointer; margin: 0 0px 0; }
+.menu-container .crbnMenu .link-stack .brand { text-transform: uppercase; font-weight: bold; color: #aaa; }
+.menu-container .crbnMenu .menu { display: none; border: 1px solid rgba(255,255,255,0.17); position: fixed; z-index: 9999; background: rgba(0,0,0,0.88); width: 100%; top: 40px;}
+.menu-container .crbnMenu .menu li a span{ color: #d2d2d2; font-family: arial; text-shadow: none; text-transform: uppercase; }
+.menu-container .crbnMenu .menu li a .nav-link-icon { margin-right: 10px; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container .crbnMenu .menu li ul { padding: 0; margin: 0; display: none; }
+.menu-container .crbnMenu .menu li ul li a { padding: 3px 0 3px 40px; background: #000; color: #bfd8ff; }
+.menu-container .crbnMenu .menu li ul li a:hover { color: #ccc; }
+.menu-container #nav-toggle span { height: 5px; width: 30px; right: 0px; background: #f00; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 25px; background: #f00; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:after {
+    bottom: -8px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 25px; background: #f00; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container { font-family: 'Open Sans', sans-serif; position: fixed;top: 0; z-index: 9999; width: 100%;}
+
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: 30px !important; top: 17px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: none; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+}
+
+
+@media (max-width: 380px) {
+.menu-container { font-family: 'Open Sans', sans-serif;display: block; }
+.menu-container .crbnMenu ul { padding: 0; margin: 0; list-style-type: none; }
+.menu-container .crbnMenu a { border-bottom: 1px solid rgba(255,255,255,0.17); display: block; padding: 10px 20px; color: #fff;text-transform: uppercase;}
+.menu-container .crbnMenu .link-stack { cursor: pointer; margin: 0 0px 0; }
+.menu-container .crbnMenu .link-stack .brand { text-transform: uppercase; font-weight: bold; color: #aaa; }
+.menu-container .crbnMenu .menu { display: none; border: 1px solid rgba(255,255,255,0.17); position: fixed; z-index: 9999; background: rgba(0,0,0,0.88); width: 100%; top: 40px;}
+.menu-container .crbnMenu .menu li a span{ color: #d2d2d2; font-family: arial; text-shadow: none; text-transform: uppercase; }
+.menu-container .crbnMenu .menu li a .nav-link-icon { margin-right: 10px; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container .crbnMenu .menu li ul { padding: 0; margin: 0; display: none; }
+.menu-container .crbnMenu .menu li ul li a { padding: 3px 0 3px 40px; background: #000; color: #bfd8ff; }
+.menu-container .crbnMenu .menu li ul li a:hover { color: #ccc; }
+.menu-container #nav-toggle span { height: 5px; width: 30px; right: 0px; background: #f00; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 25px; background: #f00; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:after {
+    bottom: -8px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 25px; background: #f00; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container { font-family: 'Open Sans', sans-serif; position: fixed;top: 0; z-index: 9999; width: 100%;}
+.menu-container #nav-toggle { position: fixed; left: 10px !important; top: 35px !important; }
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: 30px !important; top: 17px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: none; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+}
+
+@media (max-width: 360px) {
+
+
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: 30px !important; top: 20px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: none; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+}
+
+@media (max-width: 350px) {
+.menu-container .crbnMenu .link-stack { cursor: pointer; padding: 0; background-color: #eee; border-bottom: none; }
+.menu-container #nav-toggle { position: absolute; right: 30px !important; top: 17px !important; height: 30px; width: 40px; z-index: 9999; margin: 0; border: none; }
+.menu-container .crbnMenu .menu li a .menu-toggle { float: right; color: #FFF; }
+.menu-container #nav-toggle span {height: 5px; width: 30px; left: 4px; background: #385067; position: absolute; content: ''; transition: all 500ms ease-in-out; border: none; outline: none; top: 11px; }
+.menu-container #nav-toggle span:before, .menu-container #nav-toggle span:after { height: 4px; width: 30px; background: #385067; position: absolute; display: block; content: ''; transition: all 500ms ease-in-out; }
+.menu-container #nav-toggle span:before { top: -8px; }
+.menu-container #nav-toggle span:after { bottom: -8px; }
+
+}

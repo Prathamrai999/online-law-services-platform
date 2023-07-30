@@ -1,0 +1,130 @@
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(../../admin@figgo/inc/database.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/settings.php on line 9
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(../../admin@figgo/inc/database.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/settings.php on line 9
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../admin@figgo/inc/database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/settings/settings.php on line 9
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(../../admin@figgo/inc/db.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/settings.php on line 10
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(../../admin@figgo/inc/db.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/settings.php on line 10
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../admin@figgo/inc/db.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/settings/settings.php on line 10
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(../../admin@figgo/inc/oops.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/settings.php on line 11
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(../../admin@figgo/inc/oops.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/settings.php on line 11
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../admin@figgo/inc/oops.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/settings/settings.php on line 11
+[26-Nov-2020 12:08:58 Asia/Kolkata] PHP Fatal error:  Class 'Db' not found in /home/itsweb/public_html/figgo-code/settings/settings.php on line 13
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 2
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 2
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../settings/db_settings.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 2
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined variable: servername in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined variable: db_name in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined variable: db_username in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined variable: db_pass in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 2
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 2
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../settings/db_settings.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 2
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_name in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 22
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_username in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 22
+[26-Nov-2020 12:09:50 Asia/Kolkata] PHP Notice:  Undefined property: Db::$password in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 22
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 2
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 2
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../settings/db_settings.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 2
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined variable: servername in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 7
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined variable: db_name in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 7
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined variable: db_username in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 7
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined variable: db_pass in /home/itsweb/public_html/figgo-code/settings/inc/database.php on line 7
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../settings/db_settings.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_name in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_username in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:11:51 Asia/Kolkata] PHP Notice:  Undefined property: Db::$password in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:12:22 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[26-Nov-2020 12:12:22 Asia/Kolkata] PHP Warning:  include(../../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[26-Nov-2020 12:12:22 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../settings/db_settings.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[26-Nov-2020 12:12:22 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_name in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:12:22 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_username in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:12:22 Asia/Kolkata] PHP Notice:  Undefined property: Db::$password in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:12:37 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_name in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:12:37 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_username in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:12:37 Asia/Kolkata] PHP Notice:  Undefined property: Db::$password in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 22
+[26-Nov-2020 12:14:30 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_name in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 21
+[26-Nov-2020 12:14:30 Asia/Kolkata] PHP Notice:  Undefined property: Db::$db_username in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 21
+[26-Nov-2020 12:14:30 Asia/Kolkata] PHP Notice:  Undefined property: Db::$password in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 21
+[27-Nov-2020 12:12:04 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/itsweb/public_html/figgo-code/settings/settings.php on line 3
+[27-Nov-2020 12:12:04 Asia/Kolkata] PHP Fatal error:  Cannot redeclare class Db in /home/itsweb/public_html/figgo-code/settings/inc/db.php on line 2
+[27-Nov-2020 12:14:59 Asia/Kolkata] PHP Notice:  Undefined variable: show in /home/itsweb/public_html/figgo-code/settings/ids.php on line 21
+[27-Nov-2020 12:14:59 Asia/Kolkata] PHP Fatal error:  Call to a member function readAll() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 21
+[27-Nov-2020 12:15:23 Asia/Kolkata] PHP Notice:  Undefined variable: show in /home/itsweb/public_html/figgo-code/settings/ids.php on line 21
+[27-Nov-2020 12:15:23 Asia/Kolkata] PHP Fatal error:  Call to a member function readAll() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 21
+[27-Nov-2020 12:15:25 Asia/Kolkata] PHP Notice:  Undefined variable: show in /home/itsweb/public_html/figgo-code/settings/ids.php on line 21
+[27-Nov-2020 12:15:25 Asia/Kolkata] PHP Fatal error:  Call to a member function readAll() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 21
+[27-Nov-2020 12:19:51 Asia/Kolkata] PHP Notice:  Undefined variable: con in /home/itsweb/public_html/figgo-code/settings/ids.php on line 22
+[27-Nov-2020 12:19:51 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 22
+[27-Nov-2020 12:20:05 Asia/Kolkata] PHP Warning:  Missing argument 3 for getid(), called in /home/itsweb/public_html/figgo-code/settings/ids.php on line 37 and defined in /home/itsweb/public_html/figgo-code/settings/ids.php on line 20
+[27-Nov-2020 12:20:05 Asia/Kolkata] PHP Notice:  Undefined variable: con in /home/itsweb/public_html/figgo-code/settings/ids.php on line 22
+[27-Nov-2020 12:20:05 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 22
+[27-Nov-2020 12:20:17 Asia/Kolkata] PHP Notice:  Undefined variable: con in /home/itsweb/public_html/figgo-code/settings/ids.php on line 37
+[27-Nov-2020 12:20:17 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 22
+[27-Nov-2020 12:20:37 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 23
+[27-Nov-2020 12:21:51 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/itsweb/public_html/figgo-code/settings/ids.php on line 23
+[05-Dec-2020 13:10:43 Asia/Kolkata] PHP Notice:  Undefined variable: con in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 9
+[05-Dec-2020 13:10:43 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 9
+[05-Dec-2020 13:11:00 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_name' in 'where clause'' in /home/itsweb/public_html/figgo-code/settings/ajax.php:10
+Stack trace:
+#0 /home/itsweb/public_html/figgo-code/settings/ajax.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 10
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16
+[05-Dec-2020 13:11:25 Asia/Kolkata] PHP Notice:  Undefined index: product_name in /home/itsweb/public_html/figgo-code/settings/ajax.php on line 16

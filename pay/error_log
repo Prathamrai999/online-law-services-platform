@@ -1,0 +1,9 @@
+[26-Apr-2021 16:02:04 Asia/Kolkata] PHP Warning:  include(/footer.php): failed to open stream: No such file or directory in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:02:04 Asia/Kolkata] PHP Warning:  include(/footer.php): failed to open stream: No such file or directory in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:02:04 Asia/Kolkata] PHP Warning:  include(): Failed opening '/footer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:02:50 Asia/Kolkata] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:02:50 Asia/Kolkata] PHP Warning:  include(template/footer.php): failed to open stream: No such file or directory in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:02:50 Asia/Kolkata] PHP Warning:  include(): Failed opening 'template/footer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:12:45 Asia/Kolkata] PHP Warning:  include(templates/footerj.php): failed to open stream: No such file or directory in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:12:45 Asia/Kolkata] PHP Warning:  include(templates/footerj.php): failed to open stream: No such file or directory in /home/itsweb/public_html/legal/pay/index.php on line 66
+[26-Apr-2021 16:12:45 Asia/Kolkata] PHP Warning:  include(): Failed opening 'templates/footerj.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/legal/pay/index.php on line 66

@@ -1,0 +1,10 @@
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Warning:  include(../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 2
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Warning:  include(../settings/db_settings.php): failed to open stream: No such file or directory in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 2
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Warning:  include(): Failed opening '../settings/db_settings.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 2
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Notice:  Undefined variable: servername in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Notice:  Undefined variable: db_name in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Notice:  Undefined variable: db_username in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 11:55:37 Asia/Kolkata] PHP Notice:  Undefined variable: db_pass in /home/itsweb/public_html/figgo-code/admin@figgo/inc/database.php on line 7
+[26-Nov-2020 11:58:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$db_name' (T_VARIABLE) in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 7
+[26-Nov-2020 11:58:40 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$db_name' (T_VARIABLE) in /home/itsweb/public_html/figgo-code/admin@figgo/inc/db.php on line 7
+[02-Feb-2021 15:27:13 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$db_username' (T_VARIABLE) in /home/amixsolution/public_html/yadass/settings/inc/dbcontroller.php on line 5
